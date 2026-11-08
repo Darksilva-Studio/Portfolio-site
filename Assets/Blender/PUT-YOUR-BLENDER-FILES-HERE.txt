@@ -1,0 +1,2 @@
+Place your Blender renders (.jpg/.png), videos (.mp4) and .blend files in this folder,
+then reference them in data.js (for example: src: "assets/blender/my-render.jpg").
