@@ -25,7 +25,7 @@
    ========================================================== */
 
 const SITE = {
-  name: "Your Name",
+  name: "Uche Bruno",
   tagline: "3D Artist & Lifelong Learner",
   about:
     "I'm learning and building skills in public. This portfolio shows proof of my work, starting with Blender 3D. More skills are coming.",
