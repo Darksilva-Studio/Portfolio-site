@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <meta name="description" content="Personal portfolio showcasing proof of skills.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1 id="siteName"></h1>
+    <p id="siteTagline" class="tagline"></p>
+    <p id="siteAbout" class="about"></p>
+    <div id="siteLinks" class="links"></div>
+  </header>
+
+  <nav id="tabs" class="tabs" aria-label="Skill categories"></nav>
+
+  <main>
+    <section class="section-head">
+      <h2 id="catTitle"></h2>
+      <p id="catDesc"></p>
+      <div id="filters" class="filters" aria-label="Subcategories"></div>
+    </section>
+    <section id="grid" class="grid"></section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> <span id="footName"></span></p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button id="lbClose" class="lb-close" aria-label="Close">&times;</button>
+    <div id="lbContent"></div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
