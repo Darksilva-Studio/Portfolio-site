@@ -30,9 +30,9 @@ const SITE = {
   about:
     "I'm learning and building skills in public. This portfolio shows proof of my work, starting with Blender 3D. More skills are coming.",
   links: [
-    { label: "GitHub",   url: "https://github.com/your-username" },
-    { label: "ArtStation", url: "https://www.artstation.com/your-name" },
-    { label: "Email",    url: "mailto:you@example.com" }
+    { label: "GitHub",   url: "https://github.com/Darksilva-Studio" },
+    { label: "ArtStation", url: "#" },
+    { label: "Email",    url: "uchebruno52@gmail.com" }
   ]
 };
 
@@ -50,7 +50,7 @@ const CATEGORIES = [
         description: "Final Cycles render.",
         date: "2026-11",
         tools: ["Blender", "Cycles"],
-        download: "assets/blender/chair.blend"
+        download: "#"
       },
       {
         title: "Low-poly Chair: Wireframe",
